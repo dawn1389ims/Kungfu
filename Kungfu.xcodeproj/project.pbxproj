@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2AE90B2A09135200AD1CB4 /* KungfuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE90A2A09135200AD1CB4 /* KungfuApp.swift */; };
+		8B2AE90D2A09135200AD1CB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE90C2A09135200AD1CB4 /* ContentView.swift */; };
+		8B2AE90F2A09135300AD1CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AE90E2A09135300AD1CB4 /* Assets.xcassets */; };
+		8B2AE9132A09135300AD1CB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2AE9122A09135300AD1CB4 /* Preview Assets.xcassets */; };
+		8B2AE91D2A09135300AD1CB4 /* KungfuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE91C2A09135300AD1CB4 /* KungfuTests.swift */; };
+		8B2AE9272A09135300AD1CB4 /* KungfuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE9262A09135300AD1CB4 /* KungfuUITests.swift */; };
+		8B2AE9292A09135300AD1CB4 /* KungfuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE9282A09135300AD1CB4 /* KungfuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B2AE9192A09135300AD1CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2AE8FF2A09135200AD1CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2AE9062A09135200AD1CB4;
+			remoteInfo = Kungfu;
+		};
+		8B2AE9232A09135300AD1CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2AE8FF2A09135200AD1CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2AE9062A09135200AD1CB4;
+			remoteInfo = Kungfu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B2AE9072A09135200AD1CB4 /* Kungfu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kungfu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2AE90A2A09135200AD1CB4 /* KungfuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungfuApp.swift; sourceTree = "<group>"; };
+		8B2AE90C2A09135200AD1CB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B2AE90E2A09135300AD1CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B2AE9102A09135300AD1CB4 /* Kungfu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kungfu.entitlements; sourceTree = "<group>"; };
+		8B2AE9122A09135300AD1CB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B2AE9182A09135300AD1CB4 /* KungfuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KungfuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2AE91C2A09135300AD1CB4 /* KungfuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungfuTests.swift; sourceTree = "<group>"; };
+		8B2AE9222A09135300AD1CB4 /* KungfuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KungfuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2AE9262A09135300AD1CB4 /* KungfuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungfuUITests.swift; sourceTree = "<group>"; };
+		8B2AE9282A09135300AD1CB4 /* KungfuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KungfuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2AE9042A09135200AD1CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE9152A09135300AD1CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE91F2A09135300AD1CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2AE8FE2A09135200AD1CB4 = {
+			isa = PBXGroup;
+			children = (
+				8B2AE9092A09135200AD1CB4 /* Kungfu */,
+				8B2AE91B2A09135300AD1CB4 /* KungfuTests */,
+				8B2AE9252A09135300AD1CB4 /* KungfuUITests */,
+				8B2AE9082A09135200AD1CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2AE9082A09135200AD1CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AE9072A09135200AD1CB4 /* Kungfu.app */,
+				8B2AE9182A09135300AD1CB4 /* KungfuTests.xctest */,
+				8B2AE9222A09135300AD1CB4 /* KungfuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2AE9092A09135200AD1CB4 /* Kungfu */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AE90A2A09135200AD1CB4 /* KungfuApp.swift */,
+				8B2AE90C2A09135200AD1CB4 /* ContentView.swift */,
+				8B2AE90E2A09135300AD1CB4 /* Assets.xcassets */,
+				8B2AE9102A09135300AD1CB4 /* Kungfu.entitlements */,
+				8B2AE9112A09135300AD1CB4 /* Preview Content */,
+			);
+			path = Kungfu;
+			sourceTree = "<group>";
+		};
+		8B2AE9112A09135300AD1CB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AE9122A09135300AD1CB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B2AE91B2A09135300AD1CB4 /* KungfuTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AE91C2A09135300AD1CB4 /* KungfuTests.swift */,
+			);
+			path = KungfuTests;
+			sourceTree = "<group>";
+		};
+		8B2AE9252A09135300AD1CB4 /* KungfuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AE9262A09135300AD1CB4 /* KungfuUITests.swift */,
+				8B2AE9282A09135300AD1CB4 /* KungfuUITestsLaunchTests.swift */,
+			);
+			path = KungfuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2AE9062A09135200AD1CB4 /* Kungfu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2AE92C2A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "Kungfu" */;
+			buildPhases = (
+				8B2AE9032A09135200AD1CB4 /* Sources */,
+				8B2AE9042A09135200AD1CB4 /* Frameworks */,
+				8B2AE9052A09135200AD1CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kungfu;
+			productName = Kungfu;
+			productReference = 8B2AE9072A09135200AD1CB4 /* Kungfu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2AE9172A09135300AD1CB4 /* KungfuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2AE92F2A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "KungfuTests" */;
+			buildPhases = (
+				8B2AE9142A09135300AD1CB4 /* Sources */,
+				8B2AE9152A09135300AD1CB4 /* Frameworks */,
+				8B2AE9162A09135300AD1CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2AE91A2A09135300AD1CB4 /* PBXTargetDependency */,
+			);
+			name = KungfuTests;
+			productName = KungfuTests;
+			productReference = 8B2AE9182A09135300AD1CB4 /* KungfuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B2AE9212A09135300AD1CB4 /* KungfuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2AE9322A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "KungfuUITests" */;
+			buildPhases = (
+				8B2AE91E2A09135300AD1CB4 /* Sources */,
+				8B2AE91F2A09135300AD1CB4 /* Frameworks */,
+				8B2AE9202A09135300AD1CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2AE9242A09135300AD1CB4 /* PBXTargetDependency */,
+			);
+			name = KungfuUITests;
+			productName = KungfuUITests;
+			productReference = 8B2AE9222A09135300AD1CB4 /* KungfuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2AE8FF2A09135200AD1CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8B2AE9062A09135200AD1CB4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8B2AE9172A09135300AD1CB4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8B2AE9062A09135200AD1CB4;
+					};
+					8B2AE9212A09135300AD1CB4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8B2AE9062A09135200AD1CB4;
+					};
+				};
+			};
+			buildConfigurationList = 8B2AE9022A09135200AD1CB4 /* Build configuration list for PBXProject "Kungfu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2AE8FE2A09135200AD1CB4;
+			productRefGroup = 8B2AE9082A09135200AD1CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2AE9062A09135200AD1CB4 /* Kungfu */,
+				8B2AE9172A09135300AD1CB4 /* KungfuTests */,
+				8B2AE9212A09135300AD1CB4 /* KungfuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2AE9052A09135200AD1CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2AE9132A09135300AD1CB4 /* Preview Assets.xcassets in Resources */,
+				8B2AE90F2A09135300AD1CB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE9162A09135300AD1CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE9202A09135300AD1CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2AE9032A09135200AD1CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2AE90D2A09135200AD1CB4 /* ContentView.swift in Sources */,
+				8B2AE90B2A09135200AD1CB4 /* KungfuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE9142A09135300AD1CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2AE91D2A09135300AD1CB4 /* KungfuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2AE91E2A09135300AD1CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2AE9292A09135300AD1CB4 /* KungfuUITestsLaunchTests.swift in Sources */,
+				8B2AE9272A09135300AD1CB4 /* KungfuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B2AE91A2A09135300AD1CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2AE9062A09135200AD1CB4 /* Kungfu */;
+			targetProxy = 8B2AE9192A09135300AD1CB4 /* PBXContainerItemProxy */;
+		};
+		8B2AE9242A09135300AD1CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2AE9062A09135200AD1CB4 /* Kungfu */;
+			targetProxy = 8B2AE9232A09135300AD1CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B2AE92A2A09135300AD1CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B2AE92B2A09135300AD1CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8B2AE92D2A09135300AD1CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kungfu/Kungfu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kungfu/Preview Content\"";
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.Kungfu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B2AE92E2A09135300AD1CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kungfu/Kungfu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kungfu/Preview Content\"";
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.Kungfu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B2AE9302A09135300AD1CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.KungfuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kungfu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kungfu";
+			};
+			name = Debug;
+		};
+		8B2AE9312A09135300AD1CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.KungfuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kungfu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kungfu";
+			};
+			name = Release;
+		};
+		8B2AE9332A09135300AD1CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.KungfuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kungfu;
+			};
+			name = Debug;
+		};
+		8B2AE9342A09135300AD1CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWGTFVP982;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learn.meng.KungfuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kungfu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2AE9022A09135200AD1CB4 /* Build configuration list for PBXProject "Kungfu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2AE92A2A09135300AD1CB4 /* Debug */,
+				8B2AE92B2A09135300AD1CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2AE92C2A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "Kungfu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2AE92D2A09135300AD1CB4 /* Debug */,
+				8B2AE92E2A09135300AD1CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2AE92F2A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "KungfuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2AE9302A09135300AD1CB4 /* Debug */,
+				8B2AE9312A09135300AD1CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2AE9322A09135300AD1CB4 /* Build configuration list for PBXNativeTarget "KungfuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2AE9332A09135300AD1CB4 /* Debug */,
+				8B2AE9342A09135300AD1CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2AE8FF2A09135200AD1CB4 /* Project object */;
+}
