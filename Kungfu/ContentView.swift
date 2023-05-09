@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(spacing: 30) {
+            
+            Button {
+                let aVc = SourcePickerViewController.init()
+                var topController = UIApplication.shared.windows.first?.rootViewController
+                topController?.present(aVc, animated: true, completion: nil)
+            } label: {
+                Text("Go")
+            }
+
         }
-        .padding()
     }
 }
 
