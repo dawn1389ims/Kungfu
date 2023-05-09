@@ -19,6 +19,9 @@
 		8B2AE93C2A0A36CF00AD1CB4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE93B2A0A36CF00AD1CB4 /* Common.swift */; };
 		8B2AE93E2A0A379500AD1CB4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE93D2A0A379500AD1CB4 /* RootViewController.swift */; };
 		8B2AE9402A0A41D800AD1CB4 /* SourcePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE93F2A0A41D800AD1CB4 /* SourcePickerViewController.swift */; };
+		8B2AE9442A0A57EC00AD1CB4 /* PoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE9432A0A57EC00AD1CB4 /* PoseViewController.swift */; };
+		8B2AE9462A0A6A4D00AD1CB4 /* JointSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE9452A0A6A4D00AD1CB4 /* JointSegmentView.swift */; };
+		8B2AE9482A0A6AE200AD1CB4 /* AnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2AE9472A0A6AE200AD1CB4 /* AnimatedTransitioning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		8B2AE93B2A0A36CF00AD1CB4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		8B2AE93D2A0A379500AD1CB4 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		8B2AE93F2A0A41D800AD1CB4 /* SourcePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourcePickerViewController.swift; sourceTree = "<group>"; };
+		8B2AE9432A0A57EC00AD1CB4 /* PoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseViewController.swift; sourceTree = "<group>"; };
+		8B2AE9452A0A6A4D00AD1CB4 /* JointSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JointSegmentView.swift; sourceTree = "<group>"; };
+		8B2AE9472A0A6AE200AD1CB4 /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTransitioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,10 @@
 				8B2AE93F2A0A41D800AD1CB4 /* SourcePickerViewController.swift */,
 				8B2AE93D2A0A379500AD1CB4 /* RootViewController.swift */,
 				8B2AE9372A0A355600AD1CB4 /* CameraViewController.swift */,
+				8B2AE9432A0A57EC00AD1CB4 /* PoseViewController.swift */,
 				8B2AE9392A0A36AE00AD1CB4 /* VideoOutputViews.swift */,
+				8B2AE9472A0A6AE200AD1CB4 /* AnimatedTransitioning.swift */,
+				8B2AE9452A0A6A4D00AD1CB4 /* JointSegmentView.swift */,
 				8B2AE93B2A0A36CF00AD1CB4 /* Common.swift */,
 				8B2AE90E2A09135300AD1CB4 /* Assets.xcassets */,
 				8B2AE9102A09135300AD1CB4 /* Kungfu.entitlements */,
@@ -275,11 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B2AE90D2A09135200AD1CB4 /* ContentView.swift in Sources */,
+				8B2AE9442A0A57EC00AD1CB4 /* PoseViewController.swift in Sources */,
 				8B2AE90B2A09135200AD1CB4 /* KungfuApp.swift in Sources */,
 				8B2AE93E2A0A379500AD1CB4 /* RootViewController.swift in Sources */,
+				8B2AE9462A0A6A4D00AD1CB4 /* JointSegmentView.swift in Sources */,
 				8B2AE9382A0A355600AD1CB4 /* CameraViewController.swift in Sources */,
 				8B2AE93C2A0A36CF00AD1CB4 /* Common.swift in Sources */,
 				8B2AE93A2A0A36AE00AD1CB4 /* VideoOutputViews.swift in Sources */,
+				8B2AE9482A0A6AE200AD1CB4 /* AnimatedTransitioning.swift in Sources */,
 				8B2AE9402A0A41D800AD1CB4 /* SourcePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

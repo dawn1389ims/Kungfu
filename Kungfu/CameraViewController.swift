@@ -30,7 +30,7 @@ class CameraViewController: UIViewController {
     private let videoFileReadingQueue = DispatchQueue(label: "VideoFileReading", qos: .userInteractive)
     private var videoFileBufferOrientation = CGImagePropertyOrientation.up
     private var videoFileFrameDuration = CMTime.invalid
-
+    var readStarted = false
     override func viewDidLoad() {
         super.viewDidLoad()
         startObservingStateChanges()
@@ -237,8 +237,12 @@ class CameraViewController: UIViewController {
                                                sampleBufferOut: &sampleBuffer)
             if let sampleBuffer = sampleBuffer {
                 self.outputDelegate?.cameraViewController(self, didReceiveBuffer: sampleBuffer, orientation: self.videoFileBufferOrientation)
-                DispatchQueue.main.async {
-                    GameManager.shared.didEnter(newIdentify: poseGameEvent, previousIdentify: nil)
+                
+                if (!self.readStarted) {
+                    self.readStarted = true;
+                    DispatchQueue.main.async {
+                        GameManager.shared.didEnter(newIdentify: poseGameEvent, previousIdentify: cameraEvent)
+                    }
                 }
             }
         }
@@ -265,8 +269,12 @@ extension CameraViewController: AVCaptureVideoDataOutputSampleBufferDelegate {
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         outputDelegate?.cameraViewController(self, didReceiveBuffer: sampleBuffer, orientation: .up)
         
-        DispatchQueue.main.async {
-            GameManager.shared.didEnter(newIdentify: poseGameEvent, previousIdentify: nil)
+        if (!readStarted) {
+            readStarted = true;
+            DispatchQueue.main.async {
+                GameManager.shared.didEnter(newIdentify: poseGameEvent, previousIdentify: cameraEvent)
+            }
         }
+        
     }
 }

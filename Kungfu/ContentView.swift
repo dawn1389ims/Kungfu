@@ -14,7 +14,7 @@ struct ContentView: View {
             
             Button {
                 let aVc = SourcePickerViewController.init()
-                var topController = UIApplication.shared.windows.first?.rootViewController
+                let topController = UIApplication.shared.windows.first?.rootViewController
                 topController?.present(aVc, animated: true, completion: nil)
             } label: {
                 Text("Go")

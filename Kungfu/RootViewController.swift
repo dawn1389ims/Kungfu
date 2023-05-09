@@ -14,6 +14,7 @@ let cameraEvent = "camera"
 let poseGameEvent = "poseGame"
 
 class GameManager {
+    
     fileprivate var activeObservers = [UIViewController: NSObjectProtocol]()
     var recordedVideoSource: AVAsset?
     static var shared = GameManager()
@@ -173,7 +174,7 @@ extension RootViewController: GameStateChangeObserver {
         let controllerToPresent: UIViewController
         
         if (identify == poseGameEvent) {
-            controllerToPresent = UIViewController.init();
+            controllerToPresent = PoseViewController.init();
         } else {
             return
         }
